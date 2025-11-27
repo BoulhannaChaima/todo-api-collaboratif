@@ -60,22 +60,6 @@
                 <version>${lombok.version}</version>
             </dependency>
 
-            <!-- JWT -->
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt-api</artifactId>
-                <version>${jjwt.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt-impl</artifactId>
-                <version>${jjwt.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt-jackson</artifactId>
-                <version>${jjwt.version}</version>
-            </dependency>
 
             <!-- Validation -->
             <dependency>
@@ -84,18 +68,7 @@
                 <version>${hibernate-validator.version}</version>
             </dependency>
 
-            <!-- Module commun (notre librairie partagée) -->
-            <dependency>
-                <groupId>com.helpdesk</groupId>
-                <artifactId>common-data-model</artifactId>
-                <version>${project.version}</version>
-            </dependency>
 
-            <dependency>
-                <groupId>com.h2database</groupId>
-                <artifactId>h2</artifactId>
-                <scope>test</scope>
-            </dependency>
 
             <dependency>
                 <groupId>org.springframework.security</groupId>
